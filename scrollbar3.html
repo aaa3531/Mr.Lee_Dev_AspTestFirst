@@ -1,0 +1,24 @@
+<div id="quick" style="position:absolute;z-index:2;top:0;left:0;width:100px;">
+asdfasdf
+</div>
+
+ 
+?
+ 
+<script type="text/javascript">
+var quick_menu = $('#quick');
+var quick_top = 80;
+ 
+/* quick menu initialization */
+quick_menu.css('top', $(window).height() );
+$(document).ready(function(){
+quick_menu.animate( { "top": $(document).scrollTop() + quick_top +"px" }, 500 ); 
+$(window).scroll(function(){
+quick_menu.stop();
+quick_menu.animate( { "top": $(document).scrollTop() + quick_top + "px" }, 1000 );
+});
+});
+< /script>
+
+
+

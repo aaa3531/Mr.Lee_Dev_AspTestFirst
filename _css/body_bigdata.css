@@ -1,0 +1,298 @@
+/* home css */
+
+
+#homebody 
+{
+    font-family:¸¼Àº °íµñ;
+    background-color:#ffffff;
+    width:754px;
+}
+#homebody .word
+{
+    padding:5px 5px 0 5px;
+    color:#000000;
+    font-weight:bold;
+    font-family:arial;
+    font-size:24px;
+}
+#homebody .contents
+{
+    padding:5px 5px 0 5px;
+    color:#000000;
+    font-weight:normal;
+    font-family:¸¼Àº °íµñ, arial;
+    font-size:16px;
+}
+#homebody .dicthidden
+{
+    padding:5px 5px 0 15px;
+    color:#f8f8f8;
+    font-weight:normal;
+    font-family:¸¼Àº °íµñ, arial;
+    font-size:14px;
+}
+#homebody .dicttitle
+{
+    padding:5px 5px 0 15px;
+    color:#3388cc;
+    font-weight:bold;
+    font-family:¸¼Àº °íµñ,arial;
+    font-size:16px;
+}
+#homebody .dictcontents
+{
+    padding:5px 5px 0 15px;
+    color:#000000;
+    font-weight:normal;
+    font-family:¸¼Àº °íµñ,arial;
+    font-size:14px;
+}
+#homebody .subtitle
+{
+    padding:5px 5px 0 5px;
+    color:#0033ff;
+    font-weight:bold;
+    font-family:¸¼Àº °íµñ,arial;
+    font-size:20px;
+}
+#homebody .subtitle a
+{
+    font-family:¸¼Àº °íµñ;
+    font-weight:bold;
+    font-size:20px;
+    color:#0033ff;
+}
+#homebody .subtitle a:hover
+{
+    font-family:¸¼Àº °íµñ;
+    font-size:20px;
+    color:#ff6600;
+}
+#homebody .hidden
+{
+    padding:5px 5px 0 5px;
+    color:#ffffff;
+    font-weight:bold;
+    font-family:¸¼Àº °íµñ,arial;
+    font-size:20px;
+}
+
+
+#homebody .listcontent
+{
+    font-size:9pt;
+    padding:10pt 0 10pt 0;
+    text-align:left;
+    margin:0 0 0 0;
+}
+#homebody .listcontent img
+{
+    width:600px;
+}
+
+
+    .learntitle
+    {
+        height:45px;
+        font-weight:bold;
+        padding:6px 0 0 0;
+        color:#0033ff;
+        text-align:center;
+        background-color:#ffffff;
+        font-size:18pt;
+        font-weight:bold;
+    }
+    .learntitle span
+    {
+        color:#ff6600;
+        font-size:18pt;
+        font-weight:bold;
+    }
+    .learntext
+    {
+        height:28px;
+        font-family:arial,¸¼Àº °íµñ;
+        font-weight:bold;
+        font-size:12pt;
+        padding:4px 0 0 5px;
+        text-align:left;
+        border:dotted 1px #ffffff;
+        background-color:#f8f8f8;
+    }
+    .learntext .emp
+    {
+    padding:0 3px 0 3px;
+    color:#ff6600;
+        font-family:arial,¸¼Àº °íµñ;
+    font-size:12pt;
+    font-weight:bold;
+    border-bottom:dotted 1px #ff6600;
+    }
+    .learntext a
+    {
+    padding:0 3px 0 3px;
+    color:#0033ff;
+        font-family:arial,¸¼Àº °íµñ;
+    font-size:12pt;
+    font-weight:bold;
+    border-bottom:dotted 1px #0033ff;
+    }
+    .learntext a:hover
+    {
+    padding:0 3px 0 3px;
+    color:#FF6600;
+        font-family:arial,¸¼Àº °íµñ;
+    font-size:12pt;
+    font-weight:bold;
+    border-bottom:dotted 1px #0033ff;
+    }
+    .learnnew
+    {
+        height:25px;
+        font-weight:bold;
+        padding:6px 0 0 0;
+        text-align:center;
+        background-color:#ffffff;
+    }
+    .learnnew a
+    {
+    margin:0 5px 0 5px;
+    padding:0 3px 0 3px;
+    color:#3366ff;
+    font-size:12pt;
+    font-weight:bold;
+    border-bottom:dotted 1px #3366ff;
+    }
+    .learnnew a:hover
+    {
+    margin:0 5px 0 5px;
+    padding:0 3px 0 3px;
+    color:#ff6600;
+    font-size:12pt;
+    font-weight:bold;
+    border-bottom:dotted 1px #ff6600;
+    }
+    .learnword
+    {
+        padding:10px 5px 0 5px;
+    }
+    .learnword a
+    {
+        font-family:arial,¸¼Àº °íµñ;
+        font-size:14px;
+        font-weight:bold;
+        color:#3388cc;
+        border-bottom:dotted 1px #000000;
+    }
+    .learnword a:hover
+    {
+        font-family:arial,¸¼Àº °íµñ;
+        font-size:14px;
+        font-weight:bold;
+        color:#ff6600;
+        border-bottom:dotted 1px #000000;
+    }
+    
+    #bdmenu
+    {
+            /* background-color : #ffffff;      */       
+            width:100%;
+            height:31;
+            text-align : center;
+            font-size:10pt;
+            font-family:"¸¼Àº °íµñ";
+            mso-ascii-font-family:"¸¼Àº °íµñ";
+            mso-fareast-font-family:+mn-ea;
+            mso-bidi-font-family:+mn-cs;
+            color:white;
+            mso-color-index:0;
+            mso-font-kerning:10pt;
+            vertical-align:middle;
+            /* border-bottom:dotted 1px #dddddd; */
+    }
+    #bdmenu .blank
+    {
+             width:45;
+             float:left;
+    }
+    #bdmenu ul {
+        	list-style:none;
+            font-family:"¸¼Àº °íµñ";
+        	font-size: 13px;
+        	font-weight:100;
+        	color: #333;
+    }
+    #bdmenu ul li.light2 
+    {
+            background-color : #f8f8f8;
+            width:15%;
+            height:20;
+            font-family:"¸¼Àº °íµñ";
+            font-size:10pt;
+            font-weight:bold;
+            color:#ff6600;
+            text-align : center;
+        	float:left;
+            padding:6px 0px 0px 0px;
+            border-top-left-radius:10px;
+            border-top-right-radius:10px;
+            border-top:1px solid #dddddd;
+            border-left:1px solid #dddddd;
+            border-right:1px solid #dddddd;                        
+    }
+    #bdmenu ul li.light2 a
+    {
+            color:#000000;
+            font-family:"¸¼Àº °íµñ";
+            font-size:10pt;
+            font-weight:bold;
+    }
+    #bdmenu ul li.light2 a:hover
+    {
+            color:#ff6600;
+            font-family:"¸¼Àº °íµñ";
+            font-size:10pt;
+            font-weight:bold;
+    }
+    #bdmenu ul li.sel2 
+    {
+            background-color : #dddddd;
+            width:15%;
+            height:20;
+            font-family:"¸¼Àº °íµñ";
+            font-size:10pt;
+            font-weight:bold;
+            color:#000000;
+            text-align : center;
+        	float:left;
+            padding:6px 0px 0px 0px;
+            border-top-left-radius:10px;
+            border-top-right-radius:10px;
+            border-top:1px solid #dddddd;
+            border-left:1px solid #dddddd;
+            border-right:1px solid #dddddd;                        
+    }
+    #bdmenu ul li.sel2 a
+    {
+            color:#506230;
+            font-family:"¸¼Àº °íµñ";
+            font-size:10pt;
+            font-weight:bold;
+    }
+    #bdmenu ul li.sel2 a:hover
+    {
+            color:#ff6600;
+            font-family:"¸¼Àº °íµñ";
+            font-size:10pt;
+            font-weight:bold;
+    }
+    #bdmenu ul li.blank
+    {
+            width:15px;
+    }
+        
+    .learnmsg
+    {
+    color:#000000;font-family:¸¼Àº °íµñ,arial;font-size:11pt;font-weight:normal;
+    }
+        

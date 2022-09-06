@@ -1,0 +1,68 @@
+﻿/* Common */
+#widget-gamebox #closing-progress-bar-container {
+    display: inline-block;
+    float: right;
+}
+
+#widget-gamebox #closing-progress-bar-container .x-progress {
+    width: 154px !important;
+    border: 4px solid #404040 !important;
+}
+
+#widget-gamebox #closing-progress-bar-container .x-progress-text {
+    width: 148px !important;
+}
+
+#widget-gamebox #closing-progress-bar-container .x-progress-default .x-progress-text {
+    color: #1a2125;
+}
+
+#widget-gamebox #closing-progress-bar-container .x-progress-text-back {
+    padding-top: 0px;
+}
+#widget-gamebox .x-progress-default {
+	background:#fff !important;
+	border:none !important;
+	width:150px !important;
+	height:24px !important;
+	float:left !important;
+	-webkit-box-shadow:inset 0px 0px 15px 0px #ccc !important;
+	-moz-box-shadow:inset 0px 0px 15px 0px #ccc !important;
+	box-shadow:inset 0px 0px 15px 0px #ccc !important;
+	border-radius:20px !important;
+	-webkit-border-radius:20px !important;
+	-moz-border-radius:20px !important;
+}
+#widget-gamebox .x-progress-bar {
+	background-image:url(../images/time_bar_bg.jpg) !important;
+	height:16px !important;
+	margin:0 !important;
+
+	display:block !important;
+	float:left !important;
+	border:none !important;
+	-webkit-box-shadow:inset 0px 0px 2px 0px #999;
+	-moz-box-shadow:inset 0px 0px 2px 0px #999;
+	box-shadow:inset 0px 0px 2px 0px #999;
+	border-radius:20px;
+	-webkit-border-radius:20px;
+	-moz-border-radius:20px;
+}
+
+#widget-gamebox #closing-progress-bar-container .x-progress-text {
+	color:#333;
+}
+
+#widget-gamebox .call-small-icon {
+	display:inline-block;
+	background:url(../images/buttons_small.png) no-repeat top center;
+	width:16px;
+	height:16px;
+}
+
+#widget-gamebox .put-small-icon {
+	display:inline-block;
+	background:url(../images/buttons_small.png) no-repeat bottom center;
+	width:16px;
+	height:16px;
+}

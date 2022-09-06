@@ -1,0 +1,161 @@
+﻿
+.ubetbtn_ov
+{
+    cursor:pointer;
+    margin: 3px;
+    padding: 3px;
+    line-height: 200%;
+    background-color: #ffffff;
+    border: solid 3px #47B7AD;
+    border-radius: 2px;
+    box-shadow: rgba(0, 0, 0, 0.498039) 0px 0px 1px 0px, rgba(0, 0, 0, 0.14902) 0px 1px 10px 0px;
+}
+    
+.ubetbtn_normal
+{
+    margin: 3px;
+    padding: 3px;
+    line-height: 200%;
+    background-color: #ffffff;
+    border: solid 3px #ffffff;
+    border-radius: 2px;
+    box-shadow: rgba(0, 0, 0, 0.498039) 0px 0px 1px 0px, rgba(0, 0, 0, 0.14902) 0px 1px 10px 0px;
+}
+.ubetbtn_select
+{
+    margin: 3px;
+    padding: 3px;
+    line-height: 200%;
+    background-color: #ffffff;
+    border: solid 3px #ff6600;
+    border-radius: 2px;
+    box-shadow: rgba(0, 0, 0, 0.498039) 0px 0px 1px 0px, rgba(0, 0, 0, 0.14902) 0px 1px 10px 0px;
+}
+.ubetbtn_auto
+{
+    margin: 3px;
+    padding: 3px;
+    line-height: 200%;
+    background-color: #ffffff;
+    border: solid 3px #ff6600;
+    border-radius: 2px;
+    box-shadow: rgba(0, 0, 0, 0.498039) 0px 0px 1px 0px, rgba(0, 0, 0, 0.14902) 0px 1px 10px 0px;
+    animation: blink 1s step-end infinite; 
+    -webkit-animation: blink 1s step-end infinite;
+}
+
+
+.betbtn2_ov {
+    cursor:pointer;
+text-align:center;
+margin:1px;
+padding:3px;
+font-family:arial,맑은 고딕,돋움;
+font-size:12px;
+font-weight:bold;
+color:#000000;
+border:solid 3px #47B7AD;
+border-radius:2px;
+background-color:#f8f8f8;
+background-image: -webkit-gradient(linear, 0% 0%,0% 100%, from(#f8f8f8),  to(#e8e8e8),  color-stop(.5,#e8e8e8) );
+box-shadow: rgba(0, 0, 0, 0.498039) 0px 0px 1px 0px, rgba(0, 0, 0, 0.14902) 0px 1px 5px 0px; 
+
+}
+
+.betbtn2_normal {
+text-align:center;
+margin:1px;
+padding:3px;
+font-family:arial,맑은 고딕,돋움;
+font-size:12px;
+font-weight:bold;
+color:#000000;
+border:solid 3px #ffffff;
+border-radius:2px;
+background-color:#f8f8f8;
+background-image: -webkit-gradient(linear, 0% 0%,0% 100%, from(#f8f8f8),  to(#e8e8e8),  color-stop(.5,#e8e8e8) );
+box-shadow: rgba(0, 0, 0, 0.498039) 0px 0px 1px 0px, rgba(0, 0, 0, 0.14902) 0px 1px 5px 0px; 
+
+}
+.betbtn2_select {
+    cursor:pointer;
+text-align:center;
+margin:1px;
+padding:3px;
+font-family:arial,맑은 고딕,돋움;
+font-size:12px;
+font-weight:bold;
+color:#000000;
+border:solid 3px #ff6600;
+border-radius:2px;
+background-color:#f8f8f8;
+background-image: -webkit-gradient(linear, 0% 0%,0% 100%, from(#f8f8f8),  to(#e8e8e8),  color-stop(.5,#e8e8e8) );
+box-shadow: rgba(0, 0, 0, 0.498039) 0px 0px 1px 0px, rgba(0, 0, 0, 0.14902) 0px 1px 5px 0px; 
+
+}
+.betbtn2_disable {
+text-align:center;
+margin:1px;
+padding:3px;
+font-family:arial,맑은 고딕,돋움;
+font-size:12px;
+font-weight:bold;
+color:#000000;
+border:solid 3px #aaaaaa;
+border-radius:2px;
+background-color:#f8f8f8;
+background-image: -webkit-gradient(linear, 0% 0%,0% 100%, from(#f8f8f8),  to(#e8e8e8),  color-stop(.5,#e8e8e8) );
+box-shadow: rgba(0, 0, 0, 0.498039) 0px 0px 1px 0px, rgba(0, 0, 0, 0.14902) 0px 1px 5px 0px; 
+
+}
+
+
+.betbtn_select{cursor:pointer;padding:5px;background-color:#fff;border:solid 3px red;}
+.betbtn_normal{cursor:pointer;padding:5px;background-color:#fff;border:solid 3px #ffffff;}
+.betbtn_ov{cursor:pointer;padding:5px;background-color:#fff;border:solid 3px #47B7AD;}
+
+/*aside*/
+.aside{font-family:'돋움',Dotum,AppleGothic,sans-serif;font-size:12px}
+.aside a{color:#b1b1b1}
+.aside .top{width:270px;margin:0 auto;background:#3e3e3e;border-top:3px solid #cd0808;}
+.aside .info_type {margin:10px 0 10px 15px}
+.aside .info_type span{font-size:11px;font-weight:bold;color:#3e3e3e;}
+.aside .info_type img{padding:0 8px;}
+.aside .myinfo{width:240px;margin:0 auto;background:#3e3e3e;}
+.aside .myinfo dl{margin-top:5px}
+.aside .myinfo_top{overflow:hidden;border-bottom:1px solid #4d4d4d;display:block;padding:15px 4px 10px 5px;}
+.aside .myinfo_top span{color:#b1b1b1;font-weight:bold;}
+.aside .betting_name{overflow:hidden;padding:11px 5px 13px;width:238px;border-bottom:1px solid #4d4d4d;}
+.aside .betting_name dt{float:left;height:20px;line-height:20px;color:#fff;}
+.aside .betting_name dt em{font-weight:bold;padding:0 3px}
+.aside .betting_name dd{float:left;height:20px;line-height:20px;color:#b1b1b1;text-align:right;}
+.aside .betting_name .txt3{float:right;margin-right:9px;color:#fff;background:red;padding:1px 5px}
+.aside .betting_name .txt4{float:right;margin-right:9px;margin-top:4px}
+.aside .myinfo_center{overflow:hidden;padding:11px 5px 13px;width:238px}
+.aside .myinfo_center2{overflow:hidden;padding:11px 2px 13px;width:248px}
+.aside .myinfo_center dt{float:left;height:20px;line-height:20px;color:#b1b1b1;}
+.aside .myinfo_center dd{float:left;height:20px;line-height:20px;color:#b1b1b1;text-align:right;}
+.aside .myinfo_center .txt1{width:163px;margin-right:9px;}
+.aside .myinfo_center .txt2{width:139px;margin-right:9px;}
+.aside .myinfo_center .txt3{width:169px;margin-right:9px;}
+
+.aside .myinfo_center .max{margin-left:32px;padding:2px 3px 2px 2px;color:#fff;font-weight:bold;background:red}
+.aside .myinfo_center input{margin-left:6px;width:100px;padding:3px;text-align:right;}
+.aside .myinfo_center .auto-betting-money{margin-left:17px;width:130px;padding:3px;text-align:right;}
+.aside .myinfo_center .autoslip input{margin-left:-3px;width:80px;font-family:'돋움',Dotum,AppleGothic,sans-serif;font-size:14px;font-weight:bold;text-align:center;}
+.aside .btn_logout{display:block;float:right;width:47px;height:18px;}
+.aside .btn_notice{display:block;float:right;width:28px;height:18px;}
+.aside .btn_charge{display:block;float:right;width:28px;height:18px;}
+.aside .time{overflow:hidden;margin:15px 5px;}
+.aside .time span{float:left;vertical- align:middle;line-height:44px;font-size:16px;color:#1ea58d;font-weight:bold;letter-spacing:-1px;}
+.aside .time .p_time{margin-right:15px;}
+.aside .time span img{padding:0 5px;}
+.aside .time .hour{display:block;width:33px;height:43px;background:#1ea58d;margin:0 1px;text-align:center;color:#fff;}
+.aside .time .minute{margin-left:5px}
+.aside .btn_betting{margin:5px 1px;}
+.aside .btn_betting input{padding:6px 0; width:132px;background:#1ea58d;color:#fff;font-size:16px;font-weight:bold;border:1px solid #4a7971;font-family:'돋움',Dotum,AppleGothic,sans-serif;}
+.aside .up_sec{position:relative;border:1px solid #323232;padding:10px 35px 10px 0;text-align:right;font-size:50px;font-weight:bold;background:linear-gradient(180deg,#eb2f2f,#771414)}
+.aside .up_sec .sec1 span{color:#fff;font-size:38px;text-align:center;}
+.aside .up_sec .sec2 span{color:#fff;font-size:38px;text-align:center;}
+.aside .betting{border-top:3px solid #1ea58d}
+.aside .up_sec .sec1 .sec1_ing{font-size:18px;position:absolute;top:22px;left:22px;}

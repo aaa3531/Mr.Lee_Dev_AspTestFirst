@@ -1,0 +1,313 @@
+        /* gwindow Area */
+        #gwindow .top {height:40px; margin:5px 0 10px 0;}
+        #gwindow .top h1 a{float:left; display:block;float:left;margin:20px 3px 0 0;}
+
+        #gwindow .contents li {float:left; display:block; font:normal 11px dotum; letter-spacing:-1px;}
+        #gwindow .contents li a {display:block; outline:none; color:#555; padding:5px}
+        #gwindow .contents li a:hover {display:block; background:#ff6600; color:#fff; text-decoration:none; padding:5px}
+
+        /* Layout */
+        #wrap{width:1024px;margin:0 auto}
+
+        /* Header Area */
+        #header 
+        {
+            width:1024px;
+            height:114px;
+            margin:0 auto;    
+            background:url(/images/top_back2.png) no-repeat;
+            position:relative;
+            border:0px solid #000000;
+        }
+        #header .gnb {position:absolute; float:left; width:950px; margin:50px 0px 0px 45px;}
+        #header .gnb a {font-size:18px; font-weight:bold; color:#ffffff;}
+        #header .gnb a:hover {font-size:18px; font-weight:bold;  color:#cccccc;}
+        
+        #header .lnb {float:right; width:74px; margin:45px 0px 45px 35px; border:solid 0px #dddddd;}
+        /*
+        #header .lnb a {background:url('/images/naver_blog.jpg') 30 30px no-repeat;}
+        #header .lnb a:hover {background:url('/images/naver_blog.jpg') 30 30px no-repeat;}
+        */
+        
+        /*   #footer  */
+        div #copy  
+        {
+             background-color : #477500;             
+             width:1024;
+             height:22;
+             text-align : center;
+             font-size:8.0pt;
+             font-family:"¸¼Àº °íµñ";
+             mso-ascii-font-family:"¸¼Àº °íµñ";
+             mso-fareast-font-family:+mn-ea;
+             mso-bidi-font-family:+mn-cs;
+             color:white;
+             mso-color-index:0;
+             mso-font-kerning:12.0pt;
+             language:en-US;
+             vertical-align:middle;
+        }
+        div .breakline 
+        {
+            background:#90a070;
+            width:1024px;
+            height:10px;
+            color:White;
+            margin: 0px 0px 0px 0px;
+            padding: 0px 0px 0px 0px;
+            border: 0px 0px 0px 0px;
+        }
+        div .space10 
+        {
+            background:#90a070;
+            width:1024px;
+            height:1px;
+            color:White;
+            margin: 0px 0px 0px 0px;
+            padding: 0px 0px 0px 0px;
+            border: 0px 0px 0px 0px;
+        }
+        div .content 
+        {
+            background:#90a070;
+            width:1024px;
+            height:1px;
+            color:#477500;
+            margin: 0px 0px 0px 0px;
+            padding: 0px 0px 0px 0px;
+            border: 0px 0px 0px 0px;
+        }
+
+        div ul { list-style-type : none;
+                 padding : 0px;   
+                 text-align : right;
+        } 
+        div ul li { display : inline;
+        }
+        #sublist { padding:3px 0px 3px 0px;
+        }
+        #sublist a:hover 
+        { 
+            font-size:12pt;
+            font-weight:bold;
+            color:red;
+        }
+        
+ 
+        #table {  display : table;     
+                  border-spacing :10px;
+         }
+ 
+        #tablerow { display : table-row;
+        }               
+
+        /*  #main */
+        section#main  {   display : table-cell;
+                          vertical-align : top;
+         }
+
+        /*   #setmenu  */
+        aside {    display : table-cell;
+                   vertical-align : top;
+                   border-width : thin;
+                   border-style : solid;
+                   border-color : black;
+                   text-align : center;
+                   padding : 10px; 
+                   width : 250px;                       
+        }   
+        nav {   width : 1024;
+                text-align:right;
+        }
+        nav ul { list-style-type : none;
+                 padding : 0px;   
+                 text-align : right;
+        } 
+        nav ul li { display : inline;
+        }
+        #nav
+        {
+            width : 1024;;
+            float:left;
+            text-align:right;
+        }
+        #nav ul 
+        {
+            list-style:none;
+            display:inline;
+        }
+        #nav li 
+        {
+            display:inline;
+        }
+        #topmenu
+        {
+             background-color : #506230;             
+             width:1024;
+             height:35;
+             text-align : center;
+             font-size:10pt;
+             font-family:"¸¼Àº °íµñ";
+             mso-ascii-font-family:"¸¼Àº °íµñ";
+             mso-fareast-font-family:+mn-ea;
+             mso-bidi-font-family:+mn-cs;
+             color:white;
+             mso-color-index:0;
+             mso-font-kerning:10pt;
+             vertical-align:middle;
+        }
+        #topmenu .blank
+        {
+             background-color : #506230;
+             width:30;
+             height:35;
+             float:left;
+        }
+        #topmenu .normal1
+        {
+             background-color : #506230;
+             width:12%;
+             height:25;
+             font-size:10pt;
+             color:#90A070;
+             float:left;
+             padding:9px 0px 0px 0px;
+        }
+        #topmenu .normal1 a
+        {
+             color:#90A070;
+        }
+        #topmenu .normal1 a:hover
+        {
+             color:#ffffff;
+        }
+
+        #topmenu .normal1 ul {
+        	list-style:none;
+        	font-family: Verdana, Geneva, sans-serif;
+        	font-size: 13px;
+        	font-weight:100;
+        	color: #333;
+        }
+        #topmenu .normal1 ul li {
+        	float:left;
+        	margin:0 5px;
+        }
+        #topmenu .normal1 a {
+        	display:block;
+        	height:20px;
+        	padding:10px;
+        	text-decoration:none;
+        	color: #333;
+        }
+        #topmenu .normal1 a:hover {
+        	background-image: url(../images/blue.gif);
+        	background-repeat: repeat-x;
+        	background-position: bottom;
+        }
+
+        #topmenu .normal2
+        {
+             background-color : #506230;
+             width:12%;
+             height:25;
+             font-size:10pt;
+             font-weight:bold;
+             color:#ffffff;
+             float:left;
+             padding:9px 0px 0px 0px;
+        }
+        #topmenu .normal2 a
+        {
+             color:#ffffff;
+             font-weight:bold;
+        }
+        #topmenu .normal2 a:hover
+        {
+             color:#ffff00;
+             font-weight:bold;
+        }
+        #topmenu .selected1
+        {
+             background-color : #ffffff;
+             width:12%;
+             height:35;
+             font-size:10pt;
+             color:#506230;
+             float:left;
+             padding:9px 0px 0px 0px;
+        }
+        #topmenu .selected1 a
+        {
+            color:#90A070;
+        }
+        #topmenu .selected1 a:hover
+        {
+            font-weight:bold;
+        }
+        #topmenu .selected2
+        {
+             background-color : #ffff00;
+             width:12%;
+             height:35;
+             font-size:10pt;
+             color:#ffff00;
+             font-weight:bold;
+             float:right;
+             padding:9px 0px 0px 0px;
+        }
+        #topmenu .selected2 a
+        {
+            color:#90A070;
+        }
+        #topmenu .selected2 a:hover
+        {
+            font-weight:bold;
+        }
+        #submenu
+        {
+             background-color : #eeeeee;             
+             width:1024;
+             height:25;
+             text-align : center;
+             font-size:15pt;
+             font-weight:bold;
+             font-family:"¸¼Àº °íµñ";
+             font-weight:bold;
+             color:#486032;
+             mso-ascii-font-family:"¸¼Àº °íµñ";
+             mso-fareast-font-family:+mn-ea;
+             mso-bidi-font-family:+mn-cs;
+             color:#ff0000;
+             mso-color-index:0;
+             mso-font-kerning:10pt;
+             margin:9px 0px 0px 0px;
+        }
+        div#submenu.blank
+        {
+             background-color : #ffffff;
+             width:30;
+             float:left;
+        }
+        div#submenu .normal1
+        {
+             width:12%;
+             float:left;
+        }
+        div#submenu .normal1 a
+        {
+            color:#486032;
+            font-weight:bold;
+        }
+        div#submenu .normal1 a:hover
+        {
+            color:#486032;
+        }
+        div#submenu .search
+        {
+             height:25px;
+             float:left;
+             border:1px solid #000;
+             margin:5px 0px 0px 0px;
+        }
+        

@@ -1,0 +1,68 @@
+<html> 
+<head><title></title> 
+<!-- S : Sub Menu // 따라다니는 link 메뉴 --> 
+<script type="text/javascript" language="javascript"> 
+<!-- 
+var scroll_pixel,div_pixel,gtpos,gbpos,loop,moving_spd; 
+var top_margin = 95; /// 창의 맨위와의 여백 내려올때 
+var top_margin2 =80; /// 창의 맨위와의 여백 올라올때 
+var speed = 20; /// 점차 줄어드는 속도를 위한 설정 
+var speed2 = 15; /// setTimeout을 위한 속도 설정 
+var moving_stat = 1; /// 메뉴의 스크롤을 로딩시 on/off설정 1=움직임 0은 멈춤 
+
+function check_scrollmove() 
+{ 
+scroll_pixel = document.body.scrollTop; 
+gtpos = document.body.scrollTop+top_margin; 
+gbpos = document.body.scrollTop+top_margin2; 
+if(div_id.style.pixelTop < gtpos) 
+{ 
+moving_spd = (gbpos-div_id.style.pixelTop)/speed; 
+div_id.style.pixelTop += moving_spd; 
+} 
+if(div_id.style.pixelTop > gtpos) 
+{ 
+moving_spd = (div_id.style.pixelTop-gtpos)/speed; 
+div_id.style.pixelTop -= moving_spd; 
+} 
+loop = setTimeout("check_scrollmove()",speed2); 
+} 
+function moving_control() 
+{ 
+if(!moving_stat){ check_scrollmove(); moving_stat = 1;} 
+else{ clearTimeout(loop); moving_stat = 0; div_id.style.pixelTop = top_margin;} 
+} 
+--> 
+</script><!-- E : Sub Menu // 따라다니는 link 메뉴 --> 
+</head> 
+<body [안내]태그제한으로등록되지않습니다-[안내]태그제한으로등록되지않습니다-onLoad="check_scrollmove()"> 
+
+<div id="div_id" style="position:absolute; left:807; top:95; background-color: #CCCC33; layer-background-color: #CCCC33; border: 1px none #000000; height: 100px;"> 
+<table width="133" height="250" border="0" cellpadding="0" cellspacing="0"> 
+<tr> 
+<td width="133" height="250">동부산대학</td> 
+</tr> 
+</table> 
+</div> 
+
+
+<br><br><br><br> 
+<br><br><br><br> 
+<br><br><br><br> 
+<br><br><br><br> 
+<br><br><br><br> 
+<br><br><br><br> 
+<br><br><br><br> 
+<br><br><br><br> 
+<br><br><br><br> 
+<br><br><br><br> 
+<br><br><br><br> 
+<br><br><br><br> 
+<br><br><br><br> 
+<br><br><br><br> 
+<br><br><br><br> 
+<br><br><br><br> 
+<br><br><br><br> 
+<br><br><br><br> 
+</body> 
+</html> 

@@ -1,0 +1,20 @@
+function sideQuickmenu() {
+ var obj = document.getElementById('sQmbox');
+ var posy1 = parseInt(obj.style.pixelTop, 10);
+ var posy2 = document.body.scrollTop + document.body.clientHeight - 100; //즉,bottom에서 100 입니다.
+var sSpeed = 100;
+
+  if(posy1 != posy2) {
+     with (Math) {
+       var posoffset = ceil(abs(posy2 - posy1) / 20);
+    }
+    if(posy2 < posy1)
+       posoffset = -posoffset;
+    obj.style.pixelTop = parseInt(obj.style.pixelTop, 10) + posoffset;
+    sSpeed = 5;
+   }
+ setTimeout('sideQuickmenu()', sSpeed);
+ }
+ window.onload = sideQuickmenu();
+ //스크립트 끝-->
+</script>
